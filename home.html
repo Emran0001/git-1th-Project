@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Css/home.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="Css/animate.css" />
+    <link rel="stylesheet" href="Css/flexboxgrid.css" />
+    <link rel="stylesheet" href="Css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="Css/owl.theme.default.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="title icon" type="img/png" href="images/logoFinal..png" />
+    <title>Brand Music</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-right">
+          <a href="#"><i class="far fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-home"></i></a>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="nav-left">
+          <div class="register-login-icon">
+            <i class="fas fa-user"></i>
+            <a href="#">ثبت نام / ورود</a>
+          </div>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item active" id="slide1">
+            <img src="images/s1.jpg" />
+            <span>جدیدترین موسیقی ها با بهترین کیفیت صدا</span>
+          </div>
+          <div class="item" id="slide2">
+            <img src="images/s2.jpg" />
+            <span style="color: white"
+              >بهترین آهنک ها، <br />
+              از بهترین ها....!</span
+            >
+          </div>
+          <div class="item" id="slide3">
+            <img src="images/s3.jpg" />
+            <span
+              >پخش جدیدترین آهنگ ها،<br />
+              با نسخه اورجینال آن ...!</span
+            >
+          </div>
+        </div>
+        <div class="button">
+          <i onclick="setSlide('slide1','1')" class="fa fa-circle"></i>
+          <i onclick="setSlide('slide2','2')" class="fa fa-circle"></i>
+          <i onclick="setSlide('slide3','3')" class="fa fa-circle"></i>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- home-page-products -->
+      <section class="home-page-product">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/p1.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/p2.jpg" alt="" />
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست سیسکو مدل M90</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">1200 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/p3.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست بی سیم مدل H402</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">2100 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/p4.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست آیکو مدل Z14</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">1650 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of home-page-products -->
+
+      <!-- Super-offer-section -->
+      <section class="super-offer-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="supper-offer-box">
+                <span class="supper-offer-box-title">پیشنهاد شگفت انگیز</span>
+                <div class="body">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="image-container">
+                        <img src="images/super-product.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="specification">
+                        <div class="row">
+                          <div class="price">1000 افغانی</div>
+                          <div class="off">تخفیف 60%</div>
+                        </div>
+                        <div class="title">هدست ایسوس مدل A90</div>
+                        <div class="counter-down">
+                          <span id="secound">39</span>:
+                          <span id="minutes">26</span>:
+                          <span id="hours">19</span>
+                        </div>
+                        <div class="remaining-time">
+                          زمان باقیمانده تا پایان سفارش
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="supper-offer-banner">
+                <img src="images/friday.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Super-offer-section -->
+
+      <!-- dragable list -->
+      <section class="dragble-list">
+        <div class="title">
+          <span>هندس فری ها</span>
+        </div>
+        <div class="item">
+          <div id="owl-product" class="owl-carousel owl-theme">
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h1.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h2.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h3.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h4.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h5.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h6.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-card">
+              <div class="img-sec">
+                <img src="images/h7.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">هدست مدل S100</div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 افغانی</span>
+                </div>
+                <div class="left">
+                  <div class="extend-button">
+                    <a class="bt-text" href="">خرید</a>
+                    <a class="bt-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-button">
+                    <a class="bt-text" href="">علاقه</a>
+                    <a class="bt-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of dragable list -->
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="right">
+            <div class="title">درباره ما:</div>
+            <div class="desc">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+              کتابهای زیادی در شصت و سه درصد گذشته،
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="left">
+            <div class="title">ما را در شبکه های اجتماعی دنبال کنید:</div>
+            <div class="socials">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">Emran_official, 2025</div>
+    </footer>
+    <script src=" js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+  </body>
+</html>

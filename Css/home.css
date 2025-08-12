@@ -1,0 +1,358 @@
+header {}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a {
+    color: #646464;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+}
+
+header nav .nav-left {
+    margin-left: 10px;
+}
+
+header nav .nav-left .register-login-icon {
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-left .register-login-icon i {
+    color: #646464;
+    margin: 7px;
+}
+
+header nav .nav-left .register-login-icon a {
+    color: #646464;
+    margin: 0px 10px;
+    font-size: 0.8em;
+}
+
+/* slider section */
+.slider {
+    position: relative;
+    font-size: 1em;
+}
+
+.slider .slides {}
+
+.slider .slides .item {
+    position: relative;
+    display: none;
+
+}
+
+.slider .slides .item img {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.slider .slides .active {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.slider .slides .item span {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    color: #222;
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+.slider .button {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: white;
+    z-index: 1;
+
+}
+
+.slider .button i {
+    color: rgba(255, 255, 255, .8);
+    margin: 3px;
+    cursor: pointer;
+}
+
+.slider .button i:hover {
+    color: rgba(255, 255, 255, 0.40);
+    margin: 3px;
+    cursor: pointer;
+}
+
+/* product section */
+.home-page-product {
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.shopping-card {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.shopping-card .img-sec {
+    position: relative;
+}
+
+.shopping-card .img-sec img {
+    width: 60%;
+}
+
+.shopping-card .img-sec .hot-offer {
+    position: absolute;
+    background-color: #e74c3c;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 0.9em;
+}
+
+.shopping-card .img-sec .stars {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #f1c40f;
+}
+
+.shopping-card .img-sec .stars i {}
+
+.home-page-product .shopping-card .title {
+    color: #333;
+    margin: 15px;
+}
+
+.shopping-card .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.shopping-card .buttons .right .price {
+    color: #666;
+    font-weight: bold;
+}
+
+.shopping-card .buttons .left {
+    display: flex;
+}
+
+.shopping-card .buttons .left .extend-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    padding: 8px 12px;
+    width: 40px;
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.shopping-card .buttons .left .extend-button:hover {
+    width: 100px;
+}
+
+.shopping-card .buttons .left .extend-button .bt-text {
+    display: none;
+    color: white;
+}
+
+.shopping-card .buttons .left .extend-button:hover .bt-text {
+    display: block;
+}
+
+.shopping-card .buttons .left .extend-button .bt-icon {
+    color: white;
+    margin-top: 3px;
+}
+
+/* supper-offer-section */
+.super-offer-section {
+    margin-left: 0px;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.super-offer-section .container .supper-offer-box {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 0px 10px;
+}
+
+.super-offer-section .container .supper-offer-box .supper-offer-box-title {
+    background-color: #e74c3c;
+    color: white;
+    padding: 4px 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.super-offer-section .container .supper-offer-box .body .image-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.super-offer-section .container .supper-offer-box .body .image-container img {
+    width: 100%;
+}
+
+.super-offer-section .container .supper-offer-box .body .specification {
+    padding: 30px 5px;
+}
+
+
+.super-offer-section .container .supper-offer-box .body .specification .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.super-offer-section .container .supper-offer-box .body .specification .price {
+    margin-left: 20px;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.super-offer-section .container .supper-offer-box .body .specification .off {
+    color: white;
+    background-color: #e74c3c;
+    font-size: 1.7em;
+    padding: 1px 10px;
+    border-radius: 25px;
+}
+
+.super-offer-section .container .supper-offer-box .body .specification .title {
+    color: #444;
+    margin: 40px 0px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.super-offer-section .container .supper-offer-box .body .specification .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: #666;
+}
+
+.super-offer-section .container .supper-offer-box .body .specification .remaining-time {
+    color: #777;
+    font-size: 0.8em;
+}
+
+
+
+.supper-offer-banner {
+    text-align: center;
+    padding: 0px 3px;
+}
+
+.supper-offer-banner img {
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 80%;
+}
+
+.dragble-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+.dragble-list .title {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+
+}
+
+.dragble-list .title span {
+    font-size: 1.2em;
+    color: #666;
+    border-bottom: 1.6px solid #e74c3c;
+}
+
+.owl-stage-outer {
+    direction: ltr;
+}
+
+/* footer */
+
+footer {
+    background-color: #636e72;
+    font-size: 1em;
+}
+
+footer .right {
+    padding: 40px;
+}
+
+footer .right .title {
+    color: white;
+    padding: 10px 0px;
+    font-size: 1.2em;
+}
+
+footer .right .desc {
+    color: rgba(255, 255, 255, .7);
+    line-height: 1.9em;
+    font-size: .9em;
+}
+
+footer .left {
+    padding: 40px;
+}
+
+footer .left .title {
+    padding: 10px 0px;
+    font-size: 1.1em;
+    color: white;
+}
+
+footer .left .socials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer .left .socials a {
+    color: white;
+    font-size: 1.4em;
+}
+
+footer .bottom {
+    background-color: #2d3436;
+    text-align: center;
+    padding: 15px;
+    color: rgba(255, 255, 255, .9);
+    font-family: 'Poppins Light', Courier, monospace;
+
+}
